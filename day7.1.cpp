@@ -40,28 +40,21 @@ class Diamond{
 
 int main (){
 	
+	Diamond obj();
 	int i , n ;
 	
 	cout<<"Enter number of Diamond companies towards enter it's data : " ;
 	cin>>n ;
 	cout<<endl;
 	
-	Diamond o[n];
+	Diamond obj[n];
 	
 	for(i=0 ; i<n ; i++){
 		
-		o[i].Diamond o() ;
+		o[i].Diamond obj() ;
+		obj.get();
 		
 	}
-	
-	for(i=0 ; i<n ; i++){
-		
-		obj.g();
-		
-	}
-	
-//	Diamond o(1,"dd",20,500000,10000,6000,"patel");
-//	obj.g();
 	
 	return 0 ;
 }
