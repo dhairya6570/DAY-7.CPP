@@ -31,7 +31,13 @@ class Diamond{
 		
 		void get(){
 			
-			cout<<comp_id<<"\t"<<comp_name<<"\t"<<comp_staff_quantity<<"\t"<<comp_revenue<<"\t"<<comp_import_raw_diamonds<<"\t"<<comp_export_diamonds<<"\t"<<comp_ceo<<endl;
+			cout<<comp_id<<endl ;
+			cout<<comp_name<<endl ;
+			cout<<comp_staff_quantity<<endl ;
+			cout<<comp_revenue<<endl ;
+			cout<<comp_import_raw_diamonds<<endl ;
+			cout<<comp_export_diamonds<<endl ;
+			cout<<comp_ceo<<endl;
 			
 		}
 		
@@ -40,21 +46,24 @@ class Diamond{
 
 int main (){
 	
-	Diamond obj();
-	int i , n ;
+	Diamond obj(1,"vv",20,100000,20,15,"gg") ;
+	obj.get();
 	
-	cout<<"Enter number of Diamond companies towards enter it's data : " ;
-	cin>>n ;
-	cout<<endl;
 	
-	Diamond obj[n];
-	
-	for(i=0 ; i<n ; i++){
-		
-		o[i].Diamond obj() ;
-		obj.get();
-		
-	}
+//	int i , n ;
+//	
+//	cout<<"Enter number of Diamond companies towards enter it's data : " ;
+//	cin>>n ;
+//	cout<<endl;
+//	
+//	Diamond obj[n];
+//	
+//	for(i=0 ; i<n ; i++){
+//		
+//		obj.Diamond(1,"vv",20,100000,20,15,"gg") ;
+//		obj.get();
+//		
+//	}
 	
 	return 0 ;
 }
